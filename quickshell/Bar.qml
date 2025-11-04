@@ -23,12 +23,13 @@ Scope {
             
             implicitHeight: 30
 
-            Text {
-                text: root.time
+            ClockWidget {
                 anchors.centerIn: parent
-            } 
-        }
-    }
+                time: root.time
+            }
+        } 
+     }
+
 
     Process {
         id: dateProc
