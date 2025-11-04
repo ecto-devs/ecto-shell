@@ -1,4 +1,4 @@
-// shell.qml
+// Bar.qml
 
 import Quickshell //imports PanelWindow
 import Quickshell.Io // for Process
